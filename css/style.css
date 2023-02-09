@@ -1,0 +1,304 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root{
+	--menu-hover:#f74f4c;
+	--color-hero:#292929
+	--color-naranja:#EDB44D;
+	--color-base:#333e50;
+	--color-rojo:#f74f4c;
+	--color-gris:#7E948F;
+	--bg-hero:#292929;
+	--color-boton:#f74f4c;
+	--fondo:#222222;
+	--color-letra-fondo-azul:#adb0b8;
+	--color-titulos:#dbdce4;
+	--color-morado:#654682;
+	
+	
+	--fondo-header: #040404
+--fondo-hero: #292929
+--color-morado: #654682
+--color-rojo: #f74f4c
+--color-aqua: #3dcec7
+--color-amarillo: #f4c33a
+--fondo-features1: #222222
+--color-letra gris: #aaa
+--fondo--features2: #161616
+--fondo-available: #f74f4c
+--fondo-download: #292929
+--color footer: #111111
+	
+	--bg-copy:#040406;
+	--bg-redes:#151721;
+}
+body{
+	font-family: 'Open+Sans', sans-serif;
+	font-size: 15px;
+	color: var(--color-header);
+	font-weight: 400;
+}
+
+.sticky{
+	position: fixed;
+	width: 100%;
+	background-color: #141414;
+}
+#hero{
+	background-color: var(--bg-hero);
+	padding: 5% 0 0;
+	font-weight: 300;
+}
+#hero p{
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-right: 20%;
+	margin-bottom: 40px;
+}
+
+#hero h4{
+	font-size: 22px;
+	color: #FFFFFF;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+#hero h1{
+	font-size: 80px;
+	color: #E7E4E4;
+	font-weight: 600;
+}
+
+.btn-principal{
+	background-color: var(--color-boton);
+	padding: 5px 30px;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	border-radius: 25px;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+.btn-principal:hover{
+	background-color: var(--color-boton);
+	color: var(--color-naranja);
+}
+
+
+.section{
+	padding: 10% 0;
+}
+
+#info {
+	background-color: currentColor;
+}
+
+#info h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#info p{
+	text-align: center;
+	font-size: 14px;
+}
+
+
+#info h4{
+	color: #FFFFFF;
+	font-size: 16px;
+	
+}
+
+#info p{
+	color: #FFFFFF;
+	text-align: center
+	
+}
+
+
+
+
+.icon-round{
+	border-radius: 100%;
+	font-size: 26px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+	text-align: center;
+}
+.bg-orange{
+	background-color: var(--color-naranja);
+}
+
+
+.color-gris{
+	color: var(--color-titulos) !important;
+}
+.color-naranja{
+	color: var(--color-naranja);
+}
+
+
+.btn-app{
+	border: 1px solid #fff;
+	border-radius: 40px;
+	color: #fff;
+	padding: 10px 30px;
+	font-size: 13px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.btn-app:hover{
+	background-color: var(--color-naranja);
+	color: #fff;
+}
+.btn-form{
+	background-color: var(--color-naranja);
+	border-radius: 30px;
+	border: 0;
+	padding: 10px 30px;
+	margin-top: 5px;
+	text-align: left;
+}
+
+
+
+.responsive{
+	background-color: var(--color-morado);
+}
+
+#download input{
+	padding: 15px 20px;
+	border-radius: 30px;
+	font-size: 14px;
+}
+
+#mc_embed_signup{
+	position: relative;
+}
+#download button{
+	margin-top: -52px;
+	float: right;
+	z-index: 100px;
+	position: absolute;
+	right: -50px;
+}
+
+
+#redes{
+	background-color: var(--bg-redes);
+}
+#copy{
+	background-color: var(--bg-copy);
+	padding: 40px 0;
+	text-align: center;
+	color: #373946;
+	font-size: 14px;
+}
+
+#redes i{
+	font-size: 60px;
+	color: #fff;
+}
+
+#redes a{
+	padding: 60px;
+	display: block;
+	text-align: center;
+}
+#redes .facebook:hover{
+	background-color: #3b5998;
+}
+#redes .twitter:hover{
+	background-color: #4099FF;
+}
+#redes .instagram:hover{
+	background-color: #8134af;
+}
+#redes .youtube:hover{
+	background-color: #db4437;
+}
+
+
+
+
+
+
+
+
+
+/*Media Querie Computadora (lg) */
+@media all and (min-width:1200px){
+	
+	.titulo-sections h2{
+		font-size: 120px;
+	}
+	
+	
+}
+
+/*Media Querie Tableta (sm) */
+@media all and (min-width:768px) and (max-width:1199px){
+	
+	#features2 article .row{
+		margin-top: 5%;
+	}
+	
+	#features2 article .row:first-child{
+		margin-top: 5%;
+	}
+
+	
+}
+
+/*Media Querie Celular */
+@media all and (max-width:767px){
+	
+	#hero{
+		text-align: center;
+	}
+	
+	#hero img,
+	#features2 img{
+		height: 400px;
+		margin: auto;
+		display: block;
+		margin-top: 30px;
+	}
+	
+	#Screenshots .d-flex{
+		display: inherit !important;
+	}
+	
+	#Screenshots .nav-link{
+		width: 100%;
+	}
+	#Screenshots .tab-content{
+		padding-top: 30px;
+	}
+	
+	#download .titulo-sections{
+		width: 100%;
+	}
+	.btn-app{
+		margin-top: 15px;
+	}
+	#download button{
+		right: 0;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
